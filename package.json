@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsup --watch",
+    "build": "tsup --minify",
+    "dev": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^18.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.21",
+    "tsup": "^6.2.3"
+  }
+}
